@@ -4,12 +4,11 @@
 # Not to be used as .app. Use as standalone or packaged script
 
 
+# At XWS this is here
+CD="/usr/local/XWSUtils/CocoaDialog.app/Contents/MacOS/CocoaDialog"
+ICNS="/usr/local/XWSUtils/CocoaDialog.app/Contents/Resources/info.icns"
 
-# At H&M this is here
-CD="/usr/local/HMUtils/CocoaDialog.app/Contents/MacOS/CocoaDialog"
-ICNS="/usr/local/HMUtils/CocoaDialog.app/Contents/Resources/info.icns"
-
-# Dont bother about CocoaD, its already on Prod with customization for H&M
+# Dont bother about CocoaD, its already on Prod with customization for XWS
 
 # Excuse me, who are you? and whats your Keychain
 USER=`who | grep console | awk '{print $1}'`
